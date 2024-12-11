@@ -1,6 +1,5 @@
 {
   "name": "prizma-vue",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "author": "Garaev.VM",
@@ -15,12 +14,21 @@
     "url": "https://github.com/garaev-vadim-m/prizma"
   },
   "dependencies": {
+    "element-plus": "^2.9.0",
     "sass": "^1.82.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
+    "prettier": "^3.4.2",
     "typescript": "~5.6.2",
+    "unplugin-element-plus": "^0.8.0",
+    "eslint": "8.22.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@vue/tsconfig": "^0.5.1",
     "vite": "^6.0.1",
     "vue-tsc": "^2.1.10"
   }
