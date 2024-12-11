@@ -1,5 +1,5 @@
 {
-  "name": "prizma",
+  "name": "prizma-vue",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,10 @@
     "dev": "vite --host",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garaev-vadim-m/prizma"
   },
   "dependencies": {
     "sass": "^1.82.0",
