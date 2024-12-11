@@ -1,0 +1,14 @@
+.default {
+  border: 1px solid #c4d3e9;
+  color: #0089ff;
+}
+
+.primary {
+  background-color: #0089ff;
+  color: #ffffff;
+}
+
+.primary:disabled {
+  background-color: #D7E2F2;
+  color: #303549;
+}
